@@ -1,0 +1,41 @@
+body {
+	font-family: Trebuchet MS, Tahoma, sans-serif;
+	font-size: 16px;
+	color: #303846;
+	background-color: #fff;
+}
+
+body a {
+	color: #303846;
+	text-decoration: none;
+}
+
+header {
+	padding: 20px;
+	display: flex;
+}
+
+img {
+	padding: 0 10px 0 0;
+}
+
+.header-top {
+	display: inline-flex;	
+	width: 100%;
+	align-items: center;
+		
+}
+
+.header-logo {
+	display: flex;
+	flex-grow: 4;
+}
+
+.header-menu {
+	display: flex;
+	flex-grow: 1;
+}
+
+.header-menu li {
+	display: inline;
+}
