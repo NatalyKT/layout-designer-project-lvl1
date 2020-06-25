@@ -1,4 +1,6 @@
 body {
+	margin: 0;
+	padding: 0;
 	font-family: Trebuchet MS, Tahoma, sans-serif;
 	font-size: 16px;
 	color: #303846;
@@ -10,9 +12,10 @@ body a {
 	text-decoration: none;
 }
 
-header {
+.main-header {
 	padding: 20px;
-	display: flex;
+	min-height: 50px;
+	border: 1px solid blue;
 }
 
 img {
@@ -20,22 +23,56 @@ img {
 }
 
 .header-top {
-	display: inline-flex;	
+	display: flex;	
 	width: 100%;
 	align-items: center;
-		
+	position: fixed;
+	background-color: #ffffff;
 }
 
 .header-logo {
 	display: flex;
-	flex-grow: 4;
+	align-items: center;
+	flex-grow: 1;
 }
 
 .header-menu {
 	display: flex;
-	flex-grow: 1;
+	flex-grow: 2;
+	justify-content: flex-end;
+}
+
+.site-navigation {
+	margin-right: 50px;
 }
 
 .header-menu li {
 	display: inline;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.about-content {
+	text-align: center;
+	line-height: 0.5em;
+	padding-top: 2%;
+	margin: auto;
+	min-height: 350px;
+	background-image: url(C:/Users/Samsung/layout-designer-project-lvl1/images/banner.png);
+	background-size: cover;
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+.order {
+	margin-top: 10px;
+	padding: 10px;
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 10px;
 }
